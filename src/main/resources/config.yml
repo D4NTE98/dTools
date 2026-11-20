@@ -1,0 +1,86 @@
+# Konfiguracja pluginu [ d4nte_tools ]
+# Typ bazy danych: mysql / sqlite
+database:
+  type: "sqlite"
+  mysql:
+    host: "localhost"
+    port: 3306
+    name: "nazwa_bazy"
+    user: "root"
+    password: "haslo"
+  sqlite:
+    file: "database.db"
+
+# Wiadomość powitalna
+welcome:
+  - "&aMiłej gry! &7Obecna godzina: &b{TIME}"
+  - "&cDiscord: discord.gg/udantego"
+
+# Auto wiadomości
+auto-messages:
+  interval: 60 # Co ile sekund wysyłać wiadomość
+  messages:
+    - "&6d4nte_tools"
+    - "&bd4nte_tools"
+    - "&ad4nte_tools"
+
+# Restrykcje
+restrictions:
+  disable-diamond-armor: true
+  disable-netherite-armor: true
+  disable-netherite-tools: true
+
+# System rang
+rangi:
+  Gracz:
+    prefix: "&7ɢʀᴀᴄᴢ&f"
+    permissions:
+      - "d4nte.tools.msg"
+      - "d4nte.tools.drop"
+
+  VIP:
+    prefix: "&6ᴠɪᴘ&e"
+    permissions:
+      - "d4nte.tools.msg"
+      - "d4nte.tools.drop"
+
+  Admin:
+    prefix: "&cᴀᴅᴍɪɴ&c"
+    permissions:
+      - "d4nte.tools.ban"
+      - "d4nte.tools.unban"
+      - "d4nte.tools.broadcast"
+      - "d4nte.tools.chat"
+      - "d4nte.tools.fly"
+
+domyslna_ranga: "Gracz"
+
+# GUI Pomocy
+pomoc:
+  gui-title: "&a📖 Pomoc serwera"
+
+  kategorie:
+    podstawowe:
+      name: "&6tekst 1"
+      icon: "BOOK"
+      slot: 11
+      lore:
+        - "&7Tutaj znajdziesz podstawowe informacje"
+        - "&eJak zacząć grę na serwerze"
+        - "&eRegulamin i zasady"
+
+    ekonomia:
+      name: "&2tekst 2"
+      icon: "EMERALD"
+      slot: 13
+      lore:
+        - "&7xd"
+        - "&exd"
+
+    eventy:
+      name: "&ctekst 3"
+      icon: "DIAMOND_SWORD"
+      slot: 15
+      lore:
+        - "&7xd "
+        - "&exd!"

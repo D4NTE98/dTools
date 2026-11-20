@@ -1,0 +1,26 @@
+name: dTools
+version: '${project.version}'
+main: pl.d4nte.tools.ToolsPlugin
+api-version: '1.16'
+author: "D4NTE"
+commands:
+  d4tools:
+  ban:
+  unban:
+  mute:
+  unmute:
+  kick:
+  tphere:
+  tp:
+  msg:
+  title:
+  broadcast:
+  gamemode:
+    aliases: [gm]
+  chat:
+  fly:
+  rank:
+  pomoc:
+  drop:
+  temprank:
+  vanish:

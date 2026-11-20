@@ -1,0 +1,13 @@
+drops:
+  DIAMOND:
+    chance: 5.0
+    amount: 1
+  EMERALD:
+    chance: 3.0
+    amount: 1
+  GOLD_INGOT:
+    chance: 8.0
+    amount: 2
+  IRON_INGOT:
+    chance: 10.0
+    amount: 2
